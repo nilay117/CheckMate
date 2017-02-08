@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+	<script   src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>	
+</head>
+<body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.testimages img').click(function(){
+			$(".wrapper").css("display","block");
+			$(".lightbox").fadeIn(1000);
+		});
+	})
+</script>
+<div class ="wrapper"></div>
+ 	<div class = "nav">
+ 		<div id="Teamname"> TEAMNAME</div>
+ 		<div id="Population">POPULATION: 30000</div>
+ 		<div id ="Rulebook"><a href ="#" target="_blank"> RULEBOOK</a></div>
+ 		<div id ="Logout"><a href ="#" target="_blank">LOG OUT</a></div>
+ 	</div>
+ 	<div class="lightbox">
+ 		<p id="question">
+ 			Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
+ 			Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. 
+ 			Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
+ 		</p>
+ 		<div class="bottom">
+ 		<input type="text" name="answer" placeholder="Answer">
+ 		<button>SUMBIT</button></div>
+ 	</div>
+ 	<div class ="testimages">
+ 		<img src ="a.png" />
+ 		<img src ="a.png" />
+ 		<img src ="a.png" />
+ 		<img src ="a.png" />
+ 		<img src ="a.png" />
+ 	</div>
+</body>
+</html>

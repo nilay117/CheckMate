@@ -1,0 +1,125 @@
+.wrapper{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	background-color: #222222;
+	opacity: 0.7;
+	display: none;
+	z-index: 5;
+	height: 100%;
+	width: 100vw;
+}
+.nav{
+	position: absolute;
+	background-color: #4b42f4;
+	display: flex;
+	box-shadow: 0px 5px 5px #000000;
+	top: 0%;
+	left: 0%;
+	height:8%;
+	width: 100vw;
+	color: #FFFFFF;
+}
+.nav a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.nav #Teamname{
+	position: relative;
+	left: 1%;
+	top: 25%;
+	font-size: 150%;
+	margin-right: 5%;
+}
+.nav #Population{
+	position: relative;
+	font-size: 150%;
+	top:25%;
+}
+
+.nav #Logout{
+	position: absolute;
+	right:1%;
+	top: 30%;
+}
+.nav #Logout:hover{
+	text-decoration: underline;
+	font-weight:bold;
+}
+.nav #Rulebook{
+	position: absolute;
+	top:5%;
+	border:3px solid #FFFFFF;
+	padding: 0.5%;
+	padding-right: 3%;
+	padding-left:3%;
+	right:15%; 	
+	font-size: 150%;
+	transition: background-color 0.5s;
+}
+.nav #Rulebook:hover{
+	background-color: #FFFFFF;
+}
+.nav #Rulebook:hover a{
+	color: #4b42f4;
+}
+.testimages{
+	position: absolute;
+	width: 100vw;
+	top: 40%;
+	left: 0%;
+	height: 20%;
+	display: flex;
+}
+.testimages img{
+	width: auto;
+	height: 100%;
+	padding: 3%;
+	flex: 1;
+}
+.lightbox{
+	display: none;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	border: 5px solid #4b42f4;
+	width: 40%;
+	height: 30%;
+	z-index: 5;
+}
+.lightbox p#question{
+	position: absolute;
+	top: -5%;
+	margin-right: 5%;
+	padding-left:1%;
+	color: #4b42f4;
+	font-size: 120%; 
+	left: 0%;
+	width: 99%;
+	height: 90%;
+	overflow-y: scroll;
+}
+.lightbox .bottom{
+	position: absolute;
+	top: 100%;
+	left: -1%;
+	background-color: #4b42f4;
+	height: 10%;
+	width: 98%;
+	padding: 2%;
+	display: flex;
+}
+.lightbox input[type="text"]{ 
+	flex: 2;
+	margin-right:1%;	 
+}
+.lightbox button{
+	flex: 1;
+	color: #4b42f4;
+	font-size: 100%;
+	font-weight: bold;
+}
+.lightbox button:hover{
+	box-shadow: 1px 1px 10px #000000;
+}
